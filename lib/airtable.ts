@@ -2,7 +2,7 @@ import { AirtableRecordType, CoffeeStoreType } from '@/types';
 
 var Airtable = require('airtable');
 var base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base(
-  'appawIIKUhAf0fMju'
+  'apppMTjsbNiyAmpAF'
 );
 
 const table = base('coffee-stores');
